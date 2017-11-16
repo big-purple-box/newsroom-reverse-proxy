@@ -1,6 +1,6 @@
 {
 	"name": "Reverse Proxy",
-	"description": "Spin up a reverse proxy quickly on Heroku",
+	"description": "Spin up a newsapi reverse proxy quickly on Heroku",
 	"keywords": [
 		"reverse proxy",
 		"nginx"
@@ -12,8 +12,8 @@
 		}
 	],
 	"env": {
-		"UPSTREAM_SERVER": {
-			"description": "URL of upstream server to which all requests should be proxied"
+		"NEWSAPI_KEY": {
+			"description": "newsapi.org key"
 		}
 	},
 	"stack": "cedar-14"
